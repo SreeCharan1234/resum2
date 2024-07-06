@@ -70,7 +70,7 @@ def streamlit_menu(example=1):
 selected = streamlit_menu(example=EXAMPLE_NO)
 
 if selected == "Road Map":
-    st.header(f"Get your persanalised  {selected}", divider='rainbow')
+    st.header(f"Get your persanalised  {selected}")
     
     with st.form(key='survey_form'):
         text_stack_placeholder = pseudo_bold("Known text stacks")
@@ -93,7 +93,7 @@ if selected == "Ai bot":
         from openai import OpenAI
 
         openai_api_key = "Fgsdfg"
-        st.header(f"💬 Ai Job Chatbot", divider='rainbow')
+        st.header(f"💬 Ai Job Chatbot")
         if "messages" not in st.session_state:
             st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
 
