@@ -2,12 +2,11 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import datetime
 import os
-from dotenv import load_dotenv
 import textwrap
 import google.generativeai as genai
 from IPython.display import display
 from IPython.display import Markdown
-load_dotenv()
+
 os.getenv("AIzaSyBIBVb-0Z0QwaucMGOGy8-j_RM22X-4-lE")
 genai.configure(api_key="AIzaSyBIBVb-0Z0QwaucMGOGy8-j_RM22X-4-lE")
 t=[ "Python", "Java", "C++", "JavaScript", "Ruby", "PHP", "Swift", "Kotlin", 
