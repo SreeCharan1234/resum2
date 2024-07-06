@@ -90,7 +90,7 @@ if selected == "Resume Builder":
         st.title(f"You have selected {selected}")
 if selected == "Ai bot":
         import streamlit as st
-        from openai import OpenAI
+        
 
         openai_api_key = "Fgsdfg"
         st.header(f"💬 Ai Job Chatbot")
