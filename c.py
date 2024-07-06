@@ -74,8 +74,8 @@ if selected == "Road Map":
     
     with st.form(key='survey_form'):
         text_stack_placeholder = pseudo_bold("Known text stacks")
-        text_know = st.multiselect("Text Stack You Know",t,[],placeholder="𝗞𝗻𝗼𝘄𝗻 𝘁𝗲𝘅𝘁 𝘀𝘁𝗮𝗰𝗸𝘀")
-        End_Gole =st.multiselect("What is your End Gole", t,[],placeholder="End Gole")
+        text_know = st.multiselect("Text Stack You Know",t,[])
+        End_Gole =st.multiselect("What is your End Gole", t,[])
         time= st.number_input("Time in months", min_value=1, max_value=12, step=1)
         start_date = st.date_input("Start Data", datetime.date.today()) 
         End_date = st.date_input("end Data", datetime.date.today()) 
