@@ -6,6 +6,7 @@ import textwrap
 import google.generativeai as genai
 from IPython.display import display
 from IPython.display import Markdown
+from openai import OpenAI
 
 os.getenv("AIzaSyBIBVb-0Z0QwaucMGOGy8-j_RM22X-4-lE")
 genai.configure(api_key="AIzaSyBIBVb-0Z0QwaucMGOGy8-j_RM22X-4-lE")
